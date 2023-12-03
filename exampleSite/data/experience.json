@@ -1,0 +1,38 @@
+[
+    {
+        "role":"Lead Architect",
+        "company":"[Bosscat](https://bosscathome.com)",
+        "summary":"",
+        "range":"Feb 2021 - Dec 2023"
+    },
+    {
+        "role":"Principal Engineer",
+        "company":"Silbo",
+        "summary":"",
+        "range":"Jan 2017 - Feb 2021"
+    },
+    {
+        "role":"Principal DevOps Engineer",
+        "company":"[Fidelity Investments](https://fidelity.com)",
+        "summary":"",
+        "range":"Apr 2018 - Dec 2018"
+    },
+    {
+        "role":"Senior Software Engineer",
+        "company":"[XTRAC](https://www.xtracsolutions.com/)",
+        "summary":"",
+        "range":"Dex 2015 - Apr 2018"
+    },
+    {
+        "role":"Senior System Analyst",
+        "company":"[Fidelity Investments](https://fidelity.com)",
+        "summary":"",
+        "range":"Jul 2013 - Dec 2015"
+    },
+    {
+        "role":"Senior Database Developer",
+        "company":"[Fidelity Investments](https://fidelity.com)",
+        "summary":"",
+        "range":"Nov 2008 - Jul 2013"
+    }
+]

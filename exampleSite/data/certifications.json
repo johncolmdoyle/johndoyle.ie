@@ -1,0 +1,32 @@
+[
+	{
+		"name":"AWS Certified Solutions Architect",
+		"description": "Professional",
+		"year": ""
+	},
+	{
+		"name":"AWS Certfiied DevOps Engingeer",
+		"description": "Professional",
+		"year": ""
+	},
+	{
+		"name":"AWS Certified Developer",
+		"description": "Associate",
+		"year": ""
+	},
+	{
+		"name":"AWS Certified Solutions Architect",
+		"description": "Associate",
+		"year": ""
+	},
+	{
+		"name":"AWS Certified SysOps Administrator",
+		"description": "Associate",
+		"year": ""
+	},
+	{
+		"name":"AWS Certified Cloud Practitioner",
+		"description": "",
+		"year": ""
+	}
+]

@@ -1,0 +1,63 @@
+title = "John Doyle"
+baseURL = "https://johndoyle.ie/"
+theme = "hugo-resume"
+languageCode = "en-us"
+PygmentsCodeFences = true
+PygmentsCodeFencesGuessSyntax = true
+PygmentsStyle = "monokai"
+enableGitInfo = false
+
+[params]
+address = "Charleston, SC"
+email = "john@johndoyle.ie"
+favicon = "/favicon.ico"
+firstName = "John"
+lastName = "Doyle"
+phone = "1-617-910-0038"
+profileImage = "img/linkedin.jpeg"
+showQr = true
+showContact = false
+#sections = ["skills","publications","creations","contributions","experience","education","blog","certification"]
+sections = ["skills","experience","education","certification"]
+
+[deployment]
+order = [".png$", ".jpg$", ".gif$", ".svg$"]
+
+[[deployment.targets]]
+URL = "s3://website-johndoyle.ie?region=us-east-1"
+
+[[deployment.matchers]]
+# Cache static assets for 20 years.
+pattern = "^.+\\.(js|css|png|jpg|gif|svg|ttf)$"
+cacheControl = "max-age=630720000, no-transform, public"
+gzip = true
+
+[[deployment.matchers]]
+pattern = "^.+\\.(html|xml|json)$"
+gzip = true
+
+[markup.goldmark.renderer]
+unsafe= true
+
+[params.google]
+
+[params.google.analytics]
+trackerID = "XX-123446-01"
+
+[[params.handles]]
+link = "https://www.linkedin.com/in/johncolmdoyle/"
+name = "LinkedIn"
+
+[[params.handles]]
+link = "https://github.com/johncolmdoyle/"
+name = "GitHub"
+
+[[params.handles]]
+link = "https://keybase.io/johncolmdoyle"
+name = "Keybase"
+
+[outputs]
+home = ["HTML", "JSON"]
+
+[taxonomies]
+tag = "tags"

@@ -1,0 +1,30 @@
+[
+  {
+      "grouping":"Architecture",
+      "skills":[ "AWS","Microservices","RESTful APIs","Event Driven Systems"]
+  },{
+      "grouping":"Languages, Operating Systems & Tools",
+      "skills":[ "Java","NodeJS", "Typescript", "Python"]
+  },
+  {
+      "grouping":"Data Management",
+      "skills":[
+        "PostgreSQL",
+        "MySQL",
+        {"name":"Oracle","icon":"database"},
+        "MongoDB",
+        "AWS DyanmoDB",
+        "AWS S3",
+        "AWS Aurora",
+        "AWS Redshift",
+        "AWS Glue"
+      ]
+  },
+  {
+    "grouping":"Containers & Cloud",
+      "skills":[
+          {"name":"Docker","link":"https://docker.com"},
+          {"name":"AWS","link":"https://aws.amazon.com"}
+      ]
+  }
+]
